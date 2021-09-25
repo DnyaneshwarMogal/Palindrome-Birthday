@@ -1,3 +1,16 @@
+#alertBox {
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  margin: 1rem auto;
+  border: black;
+  border-radius: 1 px;
+  border-style: solid;
+  max-width: 50%;
+}
+
 #footer ul {
   display: flex;
   justify-content: center;
