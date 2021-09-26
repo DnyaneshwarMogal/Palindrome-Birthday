@@ -26,7 +26,8 @@
     <div id="alertBox">
       <div>
         <strong>What is palindrome ?</strong> A palindrome is a word/number
-        which reads the same backward as forward. <br /><br />
+        which reads the same backward as forward. For eg: madam, 12321 reads
+        same when read backward & forward.<br /><br />
         <strong>Note :</strong> This app checks your birthdate in 4 formats
         yyyy-mm-dd, dd-mm-yyyy, mm-dd-yy, m-dd-yyyy e.g. if your birthdate is 01
         Aug 1995, then app will check for 19950801, 01081995, 080195, 1081995
@@ -39,10 +40,13 @@
       </div>
     </div>
     <div class="container">
-      <label for="date-of-birth">Select your Birthdate :</label>
-      <input type="date" id="date-of-birth" /><br />
-      <button id="btn">Check!!</button>
-      <div id="output"></div>
+      <input type="date" id="date" max="9999-12-31" />
+          <br />
+          <button class="button" type="submit" id="btn">Check</button>
+          <br />
+          <img src="./images/loading.gif" id="gif" />
+          <br />
+          <div id="output">
     </div>
     <section id="footer">
       <footer>
